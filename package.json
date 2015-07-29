@@ -1,0 +1,26 @@
+{
+  "name": "lambda-rds-postgis",
+  "description": "Amazon Lambda RDS PostGIS",
+  "version": "0.1.0",
+  "author": {
+    "name": "Brendan Nee",
+    "email": "me@bn.ee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/brendannee/lambda-rds-postgis.git"
+  },
+  "dependencies": {
+    "nconf": "0.7.1",
+    "pg": "4.4.0",
+    "polyline": "0.1.0",
+    "underscore": "1.8.3"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js"
+  }
+}
