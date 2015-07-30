@@ -61,7 +61,7 @@ Copy `config-sample.json` to `config.json`.  Add your postgres credentials as `P
 
 Zip the project:
 
-    sh zip.sh
+    sh build.sh
 
 This will create a file called `process.zip` that you can upload to Amazon Lambda.
 
