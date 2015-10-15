@@ -11,13 +11,13 @@
     "url": "http://github.com/brendannee/lambda-rds-postgis.git"
   },
   "dependencies": {
-    "nconf": "0.7.1",
-    "pg": "4.4.0",
-    "polyline": "0.1.0",
+    "nconf": "0.8.2",
+    "pg": "4.4.2",
+    "polyline": "0.2.0",
     "underscore": "1.8.3"
   },
   "engines": {
-    "node": "0.12.x"
+    "node": "4.2.x"
   },
   "scripts": {
     "start": "node ./index.js"
